@@ -11,3 +11,7 @@
 .text-green{
     color:#008080;
 }
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

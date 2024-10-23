@@ -132,7 +132,8 @@ const App = () => {
       <Pricing />
 
       {/* F&Q */}
-      <div className="text-center pt-6 mt-28 border border-slate-300 mx-5 lg:mx-auto w-full lg:w-[800px] px-5 sm:px-10 rounded-lg">
+      <div className="p-4">
+      <div className="text-center pt-6 mt-28 border border-slate-300  lg:mx-auto w-full lg:w-[800px] px-5 sm:px-10 rounded-lg">
         <div className="text-green font-semibold">#F&Q</div>
         <div className="mt-2 mb-10 text-center text-[#353535] font-bold text-2xl sm:text-3xl">
           Frequently Asked Questions
@@ -150,6 +151,7 @@ const App = () => {
             ))}
           </div>
         </div>
+      </div>
       </div>
 
       {/* Contact form */}

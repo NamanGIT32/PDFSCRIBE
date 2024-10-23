@@ -11,37 +11,31 @@ const Footer = () => {
   return (
     <>
       <div className="px-5 md:px-[8vw] mt-20">
-        {/* Footer Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Product Section */}
-          <div className="flex flex-col gap-3 text-[#606F7B] text-base">
-            <h1 className="font-semibold text-black mb-1">Product</h1>
-            <div>Employee database</div>
-            <div>Payroll</div>
-            <div>Absences</div>
-            <div>Time tracking</div>
-            <div>Shift planner</div>
-            <div>Recruiting</div>
+        <div className="flex flex-wrap md:flex-nowrap justify-between gap-8">
+          <div className="flex justify-between gap-12 md:gap-8 w-full flex-wrap md:flex-nowrap md:w-[60%]">
+            <div className="flex flex-col gap-3 text-[#606F7B] text-base">
+              <h1 className="font-semibold text-black mb-1">Product</h1>
+              <div>Employee database</div>
+              <div>Payroll</div>
+              <div>Absences</div>
+              <div>Time tracking</div>
+              <div>Shift planner</div>
+              <div>Recruiting</div>
+            </div>
+            <div className="flex flex-col gap-3 text-[#606F7B] text-base">
+              <h1 className="font-semibold text-black mb-1">Information</h1>
+              <div>FAQ</div>
+              <div>Blog</div>
+              <div>Support</div>
+            </div>
+            <div className="flex flex-col gap-3 text-[#606F7B] text-base">
+              <h1 className="font-semibold text-black mb-1">Company</h1>
+              <div>About us</div>
+              <div>Careers</div>
+              <div>Contact us</div>
+            </div>
           </div>
-
-          {/* Information Section */}
-          <div className="flex flex-col gap-3 text-[#606F7B] text-base">
-            <h1 className="font-semibold text-black mb-1">Information</h1>
-            <div>FAQ</div>
-            <div>Blog</div>
-            <div>Support</div>
-          </div>
-
-          {/* Company Section */}
-          <div className="flex flex-col gap-3 text-[#606F7B] text-base">
-            <h1 className="font-semibold text-black mb-1">Company</h1>
-            <div>About us</div>
-            <div>Careers</div>
-            <div>Contact us</div>
-          </div>
-
-          {/* Subscribe Section */}
-          <div className="bg-gray-100 p-6 md:p-8 h-fit rounded-sm">
+          <div className="bg-gray-100 p-6 md:p-8 h-fit rounded-sm md:w-[38%] lg:w-[32%] ">
             <h1 className="font-semibold text-black mb-1">Subscribe</h1>
             <div className="relative my-5">
               <FiMail className="absolute top-3 left-3 text-gray-400" />
@@ -60,8 +54,7 @@ const Footer = () => {
         </div>
 
         <hr className="my-10 w-full" />
-
-        <div className="flex flex-col flex-wrap xs:flex-row justify-between items-center py-5 mb-5 gap-7">
+        <div className="flex flex-col xs:flex-row justify-between items-center py-5 mb-5 gap-7">
           <div className="flex items-center gap-2">
             <img src={icon} alt="icon" className="w-8 h-8" />
             <div className="text-green text-2xl font-semibold">PDFSCRIBE</div>
@@ -71,7 +64,7 @@ const Footer = () => {
             <div>Privacy</div>
             <div>Cookies</div>
           </div>
-          <div className="flex gap-5 text-2xl ">
+          <div className="flex gap-5 text-2xl">
             <TiSocialLinkedin />
             <TiSocialFacebook />
             <TiSocialTwitter />
