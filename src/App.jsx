@@ -7,7 +7,7 @@ import dropImg from "./assets/img/dropImg.png";
 import Testimonials from "./components/Testimonials";
 import Pricing from "./components/Pricing";
 import FaqDropdown from "./components/FaqDropdown";
-import ContactForm from "./components/ContackForm";
+import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import { faqItems } from "./components/FaqDropdown";
 const App = () => {
